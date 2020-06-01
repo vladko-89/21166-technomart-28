@@ -74,7 +74,7 @@
 					<h1 class="visually-hidden">Техномарт</h1>
 					<section>
 						<h2 class="visually-hidden">Наши предложения</h2>
-						<div class="grid-1">
+						<div class="grid">
 							<div class="offers materials">
 								<h3>Материалы</h3>
 								<a class="offers-button" href="blank.html">
@@ -93,14 +93,14 @@
 									Для стройки
 								</a>
 							</div>
-						</div>
-						<div class="grid-2">
 							<div class="offers slider">
 								<ul class="slide-list">
 									<li>
 										<h3>Перфораторы</h3>
 										<p>Настоящие мужские игрушки</p>
-										<img src="img/jpg/slide_ptrforator.jpg" width="620" height="266" alt="Перфораторы">
+										<div class="picture">
+											<img src="img/jpg/slide_ptrforator.jpg" width="620" height="266" alt="Перфораторы">
+										</div>
 									</li>
 									<li>
 										<h3>Дрели</h3>
@@ -110,8 +110,6 @@
 								</ul>
 								<a class="popular-button" href="catalog.html">Открыть каталог</a>
 							</div>
-						</div>
-						<div class="grid-3">
 							<div class="offers sale">
 								<h3>Скидки 50%</h3>
 								<a class="offers-button" href="blank.html">
@@ -175,7 +173,6 @@
 							<h2>Популярные производители:</h2>
 							<a class="popular-button" href="blank.html">Все производители</a>
 						</div>
-<!--						<div class="#producers#">!-->
 							<div class="producer">
 								<a href="blank.html">
 									<img class="logo-producer" src="img/png/logo_bosch.png" width="126" height="37" alt="Логотип бренда Bosch">
@@ -216,58 +213,55 @@
 									<img class="logo-producer" src="img/png/logo_metabo.png" width="204" height="69" alt="Логотип бренда METABO">
 								</a>
 							</div>
-<!--						</div>!-->
 					</section>
 				</div>
 			</div>
 			<div class="services-background">
 				<div class="conteiner-2">
-					<section class="services">
-						<h2>Сервисы</h2>
-						<p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
-							Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-						</p>
-						<ul>
-							<li>
-								<button>Доставка</button>
-							</li>
-							<li>
-								<button>Гарантия</button>
-							</li>
-							<li>
-								<button>Кредит</button>
-							</li>
-						</ul>
-					</section>
-					<section>
-						<h2>Доставка</h2>
-						<p>
-							Мы с удовольствием доставим ваш товар прямо<br>
-							к вашему подъезду совершенно бесплатно<br>
-							Ведь мы неплохо заработаем,<br>
-							поднимая его на ваш этаж!
-						</p>
-						<img src="img/png/delivery.png" width="468" height="261" alt="Доставка">
-					</section>
-					<section>
-						<h2>Гарантия</h2>
-						<p>Если купленный у нас товар поломается или заскрепит,<br>
-							а также в случае пожара, спровоцированного его<br>
-							возгоранием, вы всегда можете быть уверенны в нашей<br>
-							гарантии. Мы обменяем сгоревший товар на новый.<br>
-							Дом уж восстановите как-нибудь сами.
-						</p>
-						<img src="img/png/guarantee.png" width="389" height="283" alt="Гарантия">
-					</section>
-					<section>
-						<h2>Кредит</h2>
-						<p>
-							Залезть в долговую яму стало проще!<br>
-							Кредитные консультанты придут вам на помощь.
-						</p>
-						<a href="blank.html">Отправить заявку</a>
-						<img src="img/png/credit.png" width="465" height="285" alt="Кредит">
-					</section>
+					<div class="services-block">
+						<section class="services">
+							<h2 class="title-services">Сервисы</h2>
+							<p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
+								Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+							</p>
+						</section>
+						<div>
+							<div class="services-list">
+								<button class="service-button">Доставка</button>
+								<button class="service-button">Гарантия</button>
+								<button class="service-button">Кредит</button>
+							</div>
+							<section class="service-delivery">
+								<h2 class="title-services">Доставка</h2>
+								<p>
+									Мы с удовольствием доставим ваш товар прямо<br>
+									к вашему подъезду совершенно бесплатно<br>
+									Ведь мы неплохо заработаем,<br>
+									поднимая его на ваш этаж!
+								</p>
+								<img src="img/png/delivery.png" width="468" height="261" alt="Доставка">
+							</section>
+							<section class="service-guarantee">
+								<h2 class="title-services">Гарантия</h2>
+								<p>Если купленный у нас товар поломается или заскрепит,<br>
+									а также в случае пожара, спровоцированного его<br>
+									возгоранием, вы всегда можете быть уверенны в нашей<br>
+									гарантии. Мы обменяем сгоревший товар на новый.<br>
+									Дом уж восстановите как-нибудь сами.
+								</p>
+								<img src="img/png/guarantee.png" width="389" height="283" alt="Гарантия">
+							</section>
+							<section class="service-credit">
+								<h2 class="title-services">Кредит</h2>
+								<p>
+									Залезть в долговую яму стало проще!<br>
+									Кредитные консультанты придут вам на помощь.
+								</p>
+								<a href="blank.html">Отправить заявку</a>
+								<img src="img/png/credit.png" width="465" height="285" alt="Кредит">
+							</section>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="about-company conteiner-2">
