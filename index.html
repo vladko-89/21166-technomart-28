@@ -10,7 +10,7 @@
 	<body class="body">
 		<header class="main-header">
 			<div class="top-panel">
-				<div class="top-panel-content conteiner-2">
+				<div class="top-panel-content conteiner">
 					<div class="top-panel-search">
 						<div class="main-logo">
 							<img src="img/svg/logo-technomart.svg" alt="Техномарт">
@@ -35,7 +35,7 @@
 			</div>
 			<div class="main-header-info">
 				<div class="conteiner">
-					<div class="block-info conteiner-2">
+					<div class="block-info conteiner">
 						<div class="main-header-text">
 							<i>Интернет-магазин<br>
 								строительных материалов<br>
@@ -59,7 +59,7 @@
 							</div>
 						</div>
 					</div>
-					<nav class="main-navigation conteiner-2">
+					<nav class="main-navigation conteiner">
 						<ul class="site-navigation">
 							<li><a href="">Главная</a></li>
 							<li><a href="blank.html">Компания</a></li>
@@ -75,7 +75,7 @@
 		</header>
 		<main>
 			<div class="main-block">
-				<div class="conteiner-2">
+				<div class="conteiner">
 					<h1 class="visually-hidden">Техномарт</h1>
 					<section>
 						<h2 class="visually-hidden">Наши предложения</h2>
@@ -251,10 +251,10 @@
 				</div>
 			</div>
 			<div class="services-background">
-				<div class="conteiner-2">
+				<div class="conteiner">
 					<div class="services-block">
 						<section class="services">
-							<h2 class="title-services">Сервисы</h2>
+							<h2 class="title-services service-title-top">Сервисы</h2>
 							<p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
 								Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
 							</p>
@@ -266,9 +266,9 @@
 								<button class="service-button">Кредит</button>
 							</div>
 							<ul class="services-list">
-								<li class="service-item">
-									<section class="service">
-										<h2 class="title-services">Доставка</h2>
+								<li class="service-item slide-current">
+									<div class="service">
+										<h2 class="title-services service-title-list">Доставка</h2>
 										<p>
 											Мы с удовольствием доставим ваш товар прямо<br>
 											к вашему подъезду совершенно бесплатно<br>
@@ -276,11 +276,11 @@
 											поднимая его на ваш этаж!
 										</p>
 										<img src="img/png/delivery.png" width="468" height="261" alt="Доставка">
-									</section>
+									</div>
 								</li>
 								<li class="service-item">
-									<section class="service">
-										<h2 class="title-services">Гарантия</h2>
+									<div class="service">
+										<h2 class="title-services service-title-list">Гарантия</h2>
 										<p>Если купленный у нас товар поломается или заскрепит,<br>
 											а также в случае пожара, спровоцированного его<br>
 											возгоранием, вы всегда можете быть уверенны в нашей<br>
@@ -288,25 +288,25 @@
 											Дом уж восстановите как-нибудь сами.
 										</p>
 										<img src="img/png/guarantee.png" width="389" height="283" alt="Гарантия">
-									</section>
+									</div>
 								</li>
 								<li class="service-item">
-									<section class="service">
-										<h2 class="title-services">Кредит</h2>
+									<div class="service">
+										<h2 class="title-services service-title-list">Кредит</h2>
 										<p>
 											Залезть в долговую яму стало проще!<br>
 											Кредитные консультанты придут вам на помощь.
 										</p>
 										<a href="blank.html">Отправить заявку</a>
 										<img src="img/png/credit.png" width="465" height="285" alt="Кредит">
-									</section>
+									</div>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="about-company conteiner-2">
+			<div class="about-company conteiner">
 				<section class="company">
 					<h2>Компания &laquo;Техномарт&raquo;</h2>
 					<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для<br>
@@ -331,10 +331,10 @@
 					<a class="map" href="#">
 						<img src="img/png/map.png" width="300" height="158" alt="Карта">
 					</a>
-					<a class="popular-button" href="#">Заблудились? Напишите нам!</a>
+					<a class="popular-button write-us" href="#">Заблудились? Напишите нам!</a>
 				</section>
 			</div>
-			<div class="popup-feedback">
+			<div class="popup popup-feedback">
 				<div class="feedback-body">
 					<div class="feedback-content">
 						<form action="http://echo.htmlacademy.ru" method="post">
@@ -361,10 +361,18 @@
 					</div>
 				</div>
 			</div>
-			
+			<div class="popup popup-map">
+				<div class="map-body">
+					<div class="map-content">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424124007!2d30.320894616173568!3d59.93879686904788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1592080638107!5m2!1sru!2sru" width="943" height="449" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						<p><img src="img/png/map_popup.png" width="943" height="449" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
+						<a class="button-close" href="#" aria-label="Кнопка Закрыть"><img src="img/svg/icon-close.svg" alt="X"></a>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer class="main-footer">
-			<div class="main-footer-top conteiner-2">
+			<div class="main-footer-top conteiner">
 				<div class="footer-top-conteiner">
 					<div class="top-conteiner">
 						<div class="main-logo">
@@ -394,7 +402,7 @@
 				</div>
 			</div>
 			<div class="buttom-panel">
-				<div class="buttom-conteiner conteiner-2">
+				<div class="buttom-conteiner conteiner">
 					<div class="copyright">
 						<p>&copy; 2010-2019 Компания &laquo;Техномарт&raquo;<br>
 							Все права защищены
@@ -428,7 +436,6 @@
 				</div>
 			</div>
 		</footer>
-   <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>!-->
-
+		<script src="js/popup_write_us.js"></script>
 	</body>
 </html>
