@@ -7,21 +7,23 @@ var mapPopup = document.querySelector(".map");
 var modalMap = document.querySelector(".popup-map");
 var closeMap = document.querySelector(".button-close1");
 
-var productCard = document.querySelector(".product-cart");
-var opacityButtons = document.querySelector(".product-card-button");
+var cards = document.querySelectorAll(".product-cart"), card, index;
+var opacityButton = document.querySelector(".product-card-button");
 var productImage = document.querySelector(".product-cart img");
 
-productCard.addEventListener("mouseover", function (evt) {
+
+for (index = 0; index < cards.length; index++){
+	card = cards[index];
+	card.addEventListener("mouseover", function (evt) {
 	evt.preventDefault();
-	opacityButtons.classList.remove("visually-hidden");
-	productImage.classList.add("visually-hidden");
+	card.classList.add("active-card");
 });
 
-productCard.addEventListener("mouseout", function (evt) {
+	card.addEventListener("mouseout", function (evt) {
 	evt.preventDefault();
-	opacityButtons.classList.add("visually-hidden");
-	productImage.classList.remove("visually-hidden");
+	card.classList.remove("active-card");
 });
+}
 
 feedback.addEventListener("click", function (evt) {
 	evt.preventDefault();

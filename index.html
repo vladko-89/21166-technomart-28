@@ -13,7 +13,7 @@
 				<div class="top-panel-content conteiner">
 					<div class="top-panel-search">
 						<div class="main-logo">
-							<img src="img/svg/logo-technomart.svg" alt="Техномарт">
+							<img src="img/svg/logo-technomart.svg" width="108px" height="18px" alt="Техномарт">
 						</div>
 						<form class="search" action="http://echo.htmlacademy.ru" method="post">
 							<input type="search" placeholder="Поиск:">
@@ -22,13 +22,19 @@
 					</div>
 					<div class="top-panel-links">
 						<div class="bookmarks">
-							<a href="blank.html">Закладки:</a>
+							<a href="blank.html">
+								Закладки:<span class="counter">0</span>
+							</a>
 						</div>
 						<div class="cart">
-							<a href="#">Корзина:</a>
+							<a href="#">
+								Корзина:<span class="counter">0</span>
+							</a>
 						</div>
 						<div class="order">
-							<a href="#">Оформить заказ</a>
+							<a href="#">
+								Оформить заказ
+							</a>
 						</div>
 					</div>
 				</div>
@@ -88,7 +94,7 @@
 								<span class="new">new</span>
 							</div>
 							<div class="offers tools">
-								<h3>Инструменты</h3>
+								<h3>Инструмент</h3>
 								<a class="offers-button" href="blank.html">
 									На все случаи
 								</a>
@@ -118,7 +124,7 @@
 										<p>Соседям на радость!</p>
 										<img src="img/jpg/slide_drill.png" width="620" height="266" alt="Дрели">
 										<a class="popular-button" href="catalog.html">Открыть каталог</a>
-										<button class="slide-button-radio first" aria-label="Первый слайд">
+										<button class="slide-button-radio first button-current" aria-label="Первый слайд">
 										</button>
 										<button class="slide-button-radio second" aria-label="Второй слайд">
 										</button>
@@ -152,13 +158,13 @@
 						<ul class="product">
 							<li>
 								<article class="product-cart">
-									<button class="product-card-button button-buy visually-hidden" type='button'>Купить</button>
-									<button class="product-card-button button-bookmark visually-hidden" type="button">В закладки</button>
+									<button class="product-card-button button-buy" type='button'>Купить</button>
+									<button class="product-card-button button-bookmark" type="button">В закладки</button>
 									<img src="img/jpg/bosch_bfg_9000.jpg" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
 									<h3>Перфоратор BOSCH<br>
 										BFG 6000
 									</h3>
-									<p><span>30500 Р.</span></p>
+									<p><span class="old-price">30500 Р.</span></p>
 									<p><span class="price">25500 Р.</span></p>
 								</article>
 							</li>
@@ -170,7 +176,7 @@
 									<h3>Перфоратор BOSCH<br>
 										BFG 6000
 									</h3>
-									<p><span>30500 Р.</span></p>
+									<p><span class="old-price">30500 Р.</span></p>
 									<p><span class="price">25500 Р.</span></p>
 									<span class="new">new</span>
 								</article>
@@ -183,14 +189,14 @@
 									<h3>Перфоратор BOSCH<br>
 										BFG 6000
 									</h3>
-									<p><span>30500 Р.</span></p>
+									<p><span class="old-price">30500 Р.</span></p>
 									<p><span class="price">25500 Р.</span></p>
 								</article>
 							</li>
 							<li>
 						<article class="product-cart">
-							<button class="product-card-button button-buy visually-hidden" type='button'>Купить</button>
-							<button class="product-card-button button-bookmark visually-hidden" type="button">В закладки</button>
+							<button class="product-card-button button-buy" type='button'>Купить</button>
+							<button class="product-card-button button-bookmark" type="button">В закладки</button>
 							<img src="img/jpg/bosch_bfg_3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
 							<h3>Перфоратор BOSCH<br>
 								BFG 2000
@@ -261,9 +267,15 @@
 						</section>
 						<div class="service-slider">
 							<div class="services-buttons">
-								<button class="service-button service-button-current">Доставка</button>
-								<button class="service-button">Гарантия</button>
-								<button class="service-button">Кредит</button>
+								<button class="service-button service-button-current">
+									<span>Доставка</span>
+								</button>
+								<button class="service-button">
+									<span>Гарантия</span>
+								</button>
+								<button class="service-button">
+									<span>Кредит</span>
+								</button>
 							</div>
 							<ul class="services-list">
 								<li class="service-item slide-current">
@@ -316,7 +328,7 @@
 					<p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
 						Техномарт работает со многими транспортными компаниями:
 					</p>
-					<ul>
+					<ul class="transport-list">
 						<li class="transport-item">Деловые линии</li>
 						<li class="transport-item">Автотрейдинг</li>
 						<li class="transport-item">ЖелДорЭкспедиция</li>
@@ -375,8 +387,8 @@
 			<div class="main-footer-top conteiner">
 				<div class="footer-top-conteiner">
 					<div class="top-conteiner">
-						<div class="main-logo">
-							<img src="img/SVG/logo-technomart.svg" alt="Техномарт">
+						<div class="main-logo footer-main-logo">
+							<img src="img/SVG/logo-technomart.svg" width="138px" height="23px" alt="Техномарт">
 						</div>
 						<ul class="footer-navigation">
 							<li><a href="blank.html">Компания</a></li>
